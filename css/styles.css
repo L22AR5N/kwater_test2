@@ -7805,11 +7805,12 @@ textarea.form-control-lg {
 .text-opacity-100 {
   --bs-text-opacity: 1;
 }
-
+/* 메인 배경화면 수정 #tag */
 .bg-primary {
   --bs-bg-opacity: 1;
   /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
-  background-color: #379BD5;
+  /* background-color: #379BD5; */
+  background-image: url("../assets/img/bg1.jpg");
 }
 
 .bg-secondary {
@@ -11507,4 +11508,9 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+/* 추가 */
+.s1_aron{
+  text-shadow: 4px 4px 0px #1565C0, 8px 8px 0px #42A5F5
 }
