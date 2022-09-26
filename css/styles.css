@@ -11512,5 +11512,52 @@ html {
 
 /* 추가 */
 .s1_aron{
-  text-shadow: 4px 4px 0px #1565C0, 8px 8px 0px #42A5F5
+  /* text-shadow: 4px 4px 0px #1565C0, 8px 8px 0px #42A5F5 */
+  text-shadow: 3px 3px 3px #1565C0 , 8px 8px 2px #42A5F5
+
+}
+
+.menu_aron{
+  color: #000;
+}
+
+/*
+==============================================
+floating
+==============================================
+*/
+
+.floating_aron{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(10%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(10%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
 }
