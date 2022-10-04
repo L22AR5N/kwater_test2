@@ -22,8 +22,17 @@
         <!-- 세미나 소개_aron -->
         <link href="css/main.css" rel="stylesheet" />
         <!-- 멤버 소개_aron -->
-        <link href="css/member.css" rel="stylesheet"/>
+        <!-- <link href="css/member.css" rel="stylesheet"/> -->
+        <link href="css/member_aron.css" rel="stylesheet"/>
         <link href="css/nicepage.css" rel="stylesheet"/>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+        <!-- 셀렉트 박스 -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
     </head>
     <body id="page-top">
         <!-- Navigation-->7
@@ -32,7 +41,7 @@
                 <!-- 왼쪽상단 로고 -->
                 <a class="navbar-brand" href="#page-top">
 
-                    <img src="assets/img/logo/k_ai.png" />
+                    <img src="assets/img/logo/logo-250.png" />
                 </a>
                 <!-- <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> -->
                 <button class="navbar-toggler text-uppercase bg-primary rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +68,7 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fa-solid fa-water"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
@@ -79,7 +88,7 @@
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fa-solid fa-diagram-project"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
@@ -143,17 +152,337 @@
         </section>
         <!-- About Section-->
         <!-- <section class="page-section bg-primary text-white mb-0" id="about"> -->
-            <!-- <div class="container"> -->
-                <!-- About Section Heading-->
-                <!-- <h2 class="page-section-heading text-center text-uppercase text-white">Member</h2> -->
-                <!-- Icon Divider-->
-                <!-- <div class="divider-custom divider-light"> -->
-                    <!-- <div class="divider-custom-line"></div> -->
-                    <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
-                    <!-- <div class="divider-custom-line"></div> -->
-                <!-- </div> -->
-                <!-- About(Member) Section Content-->
+        <section class="bg_aron1 text-white mb-0" id="about">
+
+            <div class="container">
+                <!-- About Section Heading -->
+                <h2 class="page-section-heading text-center text-uppercase text-white" style="font-size: 3rem;
+                line-height: 2.5rem;">Member</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fa-solid fa-people-group"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About(Member) Section Content -->
+                <div class="whos-speaking-area speakers pad100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                            </div>
+                            <!-- /col end-->
+                        </div>
+                        <!-- /.row  end-->
+                        <div class="row mb50">
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>김성훈</h3>
+                                        <p>센터장</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- /col end-->
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>김정호</h3>
+                                        <p>차장</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /col end-->
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>정희진</h3>
+                                        <p>차장</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /col end-->
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>최영돈</h3>
+                                        <p>책임연구원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>이호현</h3>
+                                        <p>수석위원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>정지영</h3>
+                                        <p>책임연구원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /col end-->
+                        </div>
+                        <!-- /row end-->
+                        <div class="row">
+                            <!-- <div class="offset-2 no-gutter"></div> -->
+                            <!-- /col end-->
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>주경원</h3>
+                                        <p>선임연구원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /col end-->
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>김용섭</h3>
+                                        <p>대리</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /col end-->
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>이소령</h3>
+                                        <p>사원</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /col end-->
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>장현준</h3>
+                                        <p>사원</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12">
+                                <div class="speakers xs-mb30">
+                                    <div class="spk-img">
+                                        <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="trainer-img" />
+                                        <!-- <ul style="margin: -23%;"> -->
+                                        <ul style="top: 5%; left: 12%">
+                                            <li>
+                                                <a href="#"><i class="fa fa-phone" style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-github"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-sharp fa-solid fa-envelope"style="color: #fff;"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-life-ring"style="color: #fff;"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="spk-info">
+                                        <h3>이아론</h3>
+                                        <p>사원</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- /row end-->
+                    </div>
+                    <!-- /container end-->
+                </div>
                 
+                
+                </div>
+            </div>
         </section>
         <!-- Contact Section-->
         <section class="page-section" id="contact">
@@ -163,7 +492,7 @@
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
                 <div id="main">
@@ -173,16 +502,20 @@
 							</header>
 							<section class="tiles">
 								<article class="style1">
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>'22년 9월23일'<br> 세미나 8회</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
+                                    <span class="image">
+                                    <img src="images/pic01.jpg" alt=""/>
+                                    </span>
+                                    <a href="SEMINAR_page/index_seminal_1.html">
+                                    <div class="f1_aron">
+                                        2022년 한국수자원학회 학술발표회 ('22.5.19~20)
+                                    </div>
+                                    <div class="content">
+                                       <p>
+                                        (주제) 온라인 저장소, 클라우드기반 jupyterHub와 모델 APIs를 활용한 수자원모델링의 재현성 개선 (최영돈).
+                                       </p>
+                                    </div>
+                                    </a>
+                                    </article>
 								<article class="style2">
 									<span class="image">
 										<img src="images/pic02.jpg" alt="" />
@@ -319,40 +652,67 @@
         </section>
         <!-- Footer-->
         <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
+            <div class="foot_aron">
+                <a class="s4_aron" href="https://www.kwater.or.kr/guid/infoPage.do?s_mid=1560">개인정보 처리방침</a>&nbsp;&nbsp;
+                <a class="s4_aron"href="https://www.kwater.or.kr/guid/sub03/licensePage.do?s_mid=2024">저작권정책</a>&nbsp;&nbsp;
+                <a class="s4_aron"href="https://www.kwater.or.kr/water/sub01/sub08/marrList.do?s_mid=1017">직원광장</a>&nbsp;&nbsp;
+                <a class="s4_aron"href="https://www.kwater.or.kr/water/sub01/sub09/contact.do?s_mid=132">찾아오시는길</a>&nbsp;&nbsp;
+
+                <a class="btn-outline-light btn-social mx-1" href="https://www.youtube.com/kwatertv"><i class="fa-brands fa-youtube"></i></a>
+                <a class="btn-outline-light btn-social mx-1" href="https://www.facebook.com/kwaterworld"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn-outline-light btn-social mx-1" href="https://www.instagram.com/ilovekwater/"><i class="fa-brands fa-instagram"></i></a>
+                <a class="btn-outline-light btn-social mx-1" href="https://twitter.com/kwater_twitt"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn-outline-light btn-social mx-1" href="https://blog.naver.com/ilovekwater"><i class="fa-solid fa-blog"></i></a>
+                <!-- <a class="btn-outline-light btn-social mx-1" href="https://pf.kakao.com/_jUxeVxl"><i><img src="images/icon/kakao.png"></a></i> -->
+                <hr style="width:80%; color: #fff; size: 30; margin-left: 10%;"/>
+                
+                <div class="wrapper_aron"><select name="foot_aron" id="foot_aron" class="form-control" onfocus='this.size=-1;' onblur='this.size=1;' onchange='if(this.value) window.open(this.value); this.blur();'>
+                    <option value="">관련사이트</option>
+                    <option value="https://www.water.or.kr">My Water (물정보포털)</option>
+                    <option value="https://www.kwater.or.kr/danbitoktok/kor.do">K-water 단비톡톡</option>
+                    <option value="https://www.kwater.or.kr/kiwe/main.do">K-water연구원</option>
+                    <option value="https://www.kwater.or.kr/edu">K-water 인재개발원</option>
+                    <option value="http://water-pos.kwater.or.kr/index.jsp">지방상수도포털(Water-pos)</option>
+                    <option value="http://opendata.kwater.or.kr">K-water 공공데이터개방포털</option>
+                    <option value="https://www.kwater.or.kr/wis/wq/index.do?w2xPath=/wis/ui/index.xml">K-water 물산업플랫폼</option>
+                    <option value="https://land.kwater.or.kr">K-water 온라인청약시스템</option>
+                    <option value="https://ebid.kwater.or.kr">K-water 전자조달시스템</option>
+                    <option value="https://www.drought.go.kr">국가가뭄정보포털</option>
+                    <option value="https://cts.kwater.or.kr">건설사업관리시스템</option>
+                    <option value="https://www.kwater.or.kr/giwaterway/ara.do">경인아라뱃길</option>
+                    <option value="https://www.gims.go.kr">국가지하수정보센터(GIMS)</option>
+                    <option value="https://www.dprc.or.kr:448/index.do">댐사전검토협의회</option>
+                    <option value="https://www.kwater.or.kr/website/ecodeltacity.do">부산에코델타시티</option>
+                    <option value="https://www.kwater.or.kr/website/songsan.do">송산그린시티</option>
+                    <option value="http://soowoo.or.kr">수우회</option>
+                    <option value="https://busan.ecodelta-smartcity.kr">부산 에코델타 스마트시티</option>
+                    <option value="https://www.kwater.or.kr/website/sihwanet.do">시화지구지속가능발전협의회</option>
+                    <option value="https://www.kwater.or.kr/website/tlight.do">시화호조력발전소</option>
+                    <option value="http://www.riverguide.go.kr">우리강이용도우미포털</option>
+                    <option value="https://www.kweco.or.kr">수자원환경산업진흥</option>
+                    <option value="https://www.bigdata-environment.kr">환경 빅데이터 플랫폼</option>
+                    <option value="http://cts.kwater.or.kr/wq/popup.html?w2xPath=/ui/indexTchnlgyStdr.xml">기술기준통합정보시스템</option>
+
+                </select></div>
             </div>
+
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+        <!-- Copyright Section--> 
+        <div class="copytight">
+            <div class="s2_aron">
+                <div class="s3_aron">
+                    주소: 대전광역시 유성구 전민동 유성대로1689번길 125 &nbsp;&nbsp; 대표전화 : 042-629-3114 / 고객센터 : 1577-0600 &nbsp;&nbsp; Copyright © K-water All Rights Reserved.&nbsp;&nbsp;
+                    <a href="https://www.kwater.or.kr/main.do?s_mid=1"><img src="images/footer_img/1main_ftlogo_kwater.png"></a>&nbsp;
+                    <a href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110"><img src="images/footer_img/2main_ftlogo_webacc.png"></a>&nbsp;
+                    <img src="images/footer_img/3main_ftlogo_make.png">&nbsp;
+                    <img src="images/footer_img/4main_ftlogo_icsi.png">&nbsp;
+                    <img src="images/footer_img/5main_ftlogo_kgw.png">&nbsp;
+                    <img src="images/footer_img/6main_ftlogo_cem.png">&nbsp;
+                    <a href="http://www.there100.org/"><img src="images/footer_img/7main_ftlogo_re100.png"></a>&nbsp;
+
+                </div>
+                
+            </div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
@@ -365,7 +725,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">물관리안전</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -375,10 +735,17 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                    <p class="mb-4">프로젝트</p>
+                                    <p class="mb-4">
+                                        1-1 섬진강 유역 Digital Twin 시범사업(AI과제) <br>
+                                        1-2 유역-댐-하천 통합 연계형 지능화 홍수관리기술(국가과제:환경부) <br>
+                                        2 댐 안전관리 플랫폼 개발을 위한 인공지능 알고리즘 선정평가 연구 <br>
+                                        3 위성자료를 활용한 유역-지점 강우 신뢰도 개선 <br>
+                                        4 임진강 수게 수위예측 알고리즘 S/W 고도화 <br>
+                                    </p>
+                                    <button class="" data-bs-dismiss="modal" onclick ="location.href='pages/page2/index_1.html'">
+                                        더보기
+                                        <i class="fa-regular fa-hand"></i>
                                     </button>
                                 </div>
                             </div>
@@ -536,8 +903,8 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/event/해커톤.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick = "location.href = 'https://l22ar5n.github.io/kwater_test3/';">
-                                        더보기
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick ="location.href='page/page2/index_hex.html'">
+                                        더 보 기
                                         <!-- <i class="fas fa-xmark fa-fw"></i>
                                         바로가기 -->
                                     </button>
@@ -565,6 +932,7 @@
         <script src="js/main.js"></script>
 
         <!-- 추가 -->
+        <!-- <script src="js/select_bar.js"></script> -->
 
     </body>
 
