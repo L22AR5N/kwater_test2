@@ -11561,3 +11561,14 @@ floating
 		-webkit-transform: translateY(0%);
 	}			
 }
+.f1_aron{
+  /* color: #066173; */
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align:right;
+  display:table-cell;
+  vertical-align:middle;
+  text-align: center;
+}
